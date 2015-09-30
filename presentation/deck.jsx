@@ -215,7 +215,7 @@ export default class extends React.Component {
           </Appear>
           <Appear fid="3">
             <Heading size={1} caps fit margin="20px 0px 0px" textColor="primary">
-              ..or any other member of the CF Foundation
+              ..or choose an EMC converged infra - stay tooned
             </Heading>
           </Appear>
         </Slide>
