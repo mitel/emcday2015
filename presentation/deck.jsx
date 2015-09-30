@@ -23,13 +23,15 @@ import preloader from "../src/utils/preloader";
 // import Interactive from "./interactive";
 
 const images = {
-  city: require("./city.jpg"),
+  city: require("./city2.jpg"),
   kat: require("./kat.png"),
   blackemc: require("./emc_bkg1.jpg"),
-  federation: require("./federation-lockup-aug15.png")
+  federation: require("./federation-lockup-aug15.png"),
+  opensource: require("./opensource5.png"),
+  quake: require("./quake2.jpg")
 };
 
-preloader([images.city, images.kat, images.blackemc, images.federation]);
+preloader([images.city, images.kat, images.blackemc, images.federation, images.opensource, images.quake]);
 
 export default class extends React.Component {
   render() {
@@ -45,7 +47,7 @@ export default class extends React.Component {
           <Heading size={1} fit caps textColor="black">
             A presentation about this presentation
           </Heading>
-          <Link href="https://github.com/mitel">
+          <Link href="https://github.com/mitel/emcday2015">
             <Text bold caps textColor="tertiary">View on Github</Text>
           </Link>
           <Text textSize="1.5em" margin="20px 0px 0px" bold>Hit Your Right Arrow To Begin!</Text>
@@ -273,7 +275,7 @@ export default class extends React.Component {
             </Heading>
           </Appear>
         </Slide>
-        <Slide transition={["slide"]} bgImage={images.city.replace("/", "")} bgDarken={0.75}>
+        <Slide transition={["slide"]} bgImage={images.opensource.replace("/", "")} bgDarken={0.55}>
           <Appear fid="1">
             <Heading size={1} caps fit textColor="primary">
               Open Source all the way
@@ -296,7 +298,7 @@ export default class extends React.Component {
             <Cite>Steve Jobs</Cite>
           </BlockQuote>
         </Slide>
-        <Slide transition={["slide"]} bgColor="black">
+        <Slide transition={["slide"]} bgImage={images.quake.replace("/", "")} bgDarken={0.45}>
           <BlockQuote>
             <Quote textSize="3.5em">
               My 10 year old son's second game is now available. I'm proud of him. It is about 2000 lines of Racket code
@@ -310,7 +312,7 @@ export default class extends React.Component {
               Prime Minister of Singapore shares his C++ code for Sudoku solver
             </Quote>
             <Cite>
-              <Link textColor="primary" href="http://goo.gl/rfgyLb">Arstehnica - news</Link>
+              <Link textColor="tertiary" href="http://goo.gl/rfgyLb">Arstehnica - news</Link>
             </Cite>
           </BlockQuote>
         </Slide>
