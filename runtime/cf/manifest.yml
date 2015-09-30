@@ -1,0 +1,9 @@
+applications:
+- name: emc-day-2015
+  command: node server.js
+  memory: 512M
+  # Add your name/initials to make the hostname unique
+  # host: emcday-${random-word}
+  host: emcday
+  # Currently defaults to PWS
+  domain: cfapps.io

@@ -1,0 +1,11 @@
+{
+  "name": "emc-day-2015",
+  "version": "0.0.1",
+  "author": "mitel",
+  "dependencies": {
+  },
+  "engines": {
+    "node": "0.12.2",
+    "npm": "2.7.4"
+  }
+}
