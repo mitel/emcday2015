@@ -37,7 +37,9 @@ export default class extends React.Component {
   render() {
     return (
       <Deck transition={["zoom", "slide"]} transitionDuration={800}>
-        <Slide transition={["zoom"]} bgColor="primary">
+        <Slide transition={["zoom"]} bgColor="primary"
+          notes="every business is going to be a software business. with this presentation i'm disrupting Microsoft's PP market,
+          same like Uber is dusrupting classic taxi market :)">
           <Heading size={1} fit caps lineHeight={1} textColor="black">
             Hello world!
           </Heading>
@@ -48,7 +50,7 @@ export default class extends React.Component {
             A presentation about this presentation
           </Heading>
           <Link href="https://github.com/mitel/emcday2015">
-            <Text bold caps textColor="tertiary">View on Github</Text>
+            <Text bold caps textColor="tertiary">I'm disrupting Microsoft's PowerPoint market share :)</Text>
           </Link>
           <Text textSize="1.5em" margin="20px 0px 0px" bold>Hit Your Right Arrow To Begin!</Text>
         </Slide>
@@ -107,7 +109,7 @@ export default class extends React.Component {
           </Appear>
           <Appear fid="3">
             <Heading size={1} caps fit margin="20px 0px 0px" textColor="primary">
-              Same as your laptop needs an one
+              Same as your laptop needs one
             </Heading>
           </Appear>
         </Slide>
@@ -234,6 +236,24 @@ export default class extends React.Component {
           <Appear fid="3">
             <Heading size={1} caps fit margin="20px 0px 0px" textColor="primary">
               But you can integrate cloud-native with legacy
+            </Heading>
+          </Appear>
+        </Slide>
+        <Slide transition={["slide"]} bgImage={images.blackemc.replace("/", "")} bgDarken={0.65}
+                notes="FAQ">
+          <Appear fid="1">
+            <Heading size={1} caps fit textColor="primary">
+              Can i use any programming language on CF?
+            </Heading>
+          </Appear>
+          <Appear fid="2">
+            <Heading size={1} caps fit margin="20px 0px 0px" textColor="tertiary">
+              Almost. Java, Python, Ruby, Node.js, Go, PHP
+            </Heading>
+          </Appear>
+          <Appear fid="3">
+            <Heading size={1} caps fit margin="20px 0px 0px" textColor="primary">
+              ..plus community built projects such as .Net or Racket
             </Heading>
           </Appear>
         </Slide>
