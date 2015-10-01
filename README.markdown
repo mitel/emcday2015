@@ -9,7 +9,7 @@ Clone this repository, open a terminal and run `npm install`
 
 Then, to start up the local server, run `npm start`
 
-Open a browser and hit `http://localhost:3000`, and we are ready to roll.
+Open a browser (better be Chrome or Safari) and hit `http://localhost:3000`.
 
 ## Build & Deploy with Docker
 
@@ -21,7 +21,7 @@ Building for Docker: `npm run docker`
 
 This will build a local docker image and start a container named `emcday2015`.
 
-Open a browser and hit `http://localhost:8080`, and we are ready to roll.
+Open a browser (better be Chrome or Safari) and hit `http://localhost:8080`.
 
 ## Build & Deploy with CloudFoundry
 
@@ -33,7 +33,7 @@ Building for CF: `npm run cf`
 
 Change dir into dist/cf and push it to the cloud with `cf push`
 
-Open a browser to the web address.
+Open a browser (better be Chrome or Safari) to the web address.
 
 ## Presenting, concepts & PDF export
 

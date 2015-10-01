@@ -24,9 +24,7 @@ module.exports = [
         path: '/{param*}',
         handler: {
             directory: {
-                // path: './dist/client', // local run
-                // path: './hapijs-server/client', // docker
-                path: './client', // local run
+                path: './client',
                 index: true,
                 listing: false
             }
