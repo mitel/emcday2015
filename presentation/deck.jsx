@@ -50,7 +50,7 @@ export default class extends React.Component {
             A presentation about this presentation
           </Heading>
           <Link href="https://github.com/mitel/emcday2015">
-            <Text bold caps textColor="tertiary">I'm disrupting Microsoft's PowerPoint market share :)</Text>
+            <Text bold caps textColor="tertiary">Download my code from Github</Text>
           </Link>
           <Text textSize="1.5em" margin="20px 0px 0px" bold>Hit Your Right Arrow To Begin!</Text>
         </Slide>
