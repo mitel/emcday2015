@@ -52,7 +52,8 @@ export default class extends React.Component {
           <Link href="https://github.com/mitel/emcday2015">
             <Text bold caps textColor="tertiary">Download my code from Github</Text>
           </Link>
-          <Text textSize="1.5em" margin="20px 0px 0px" bold>Hit Your Right Arrow To Begin!</Text>
+          <Text textSize="1.5em" margin="20px 0px 0px" bold>Right Arrow or swipe To Begin!</Text>
+          <Text textSize="1.5em" margin="20px 0px 0px" bold>Dumitru Taraianu | EMC Systems Engineer - CTD Emerging Africa | @mitelone</Text>
         </Slide>
         <Slide transition={["slide"]} bgColor="black" notes="You can even put notes on your slide. How awesome is that?">
           <Image src={images.kat.replace("/", "")} margin="0px auto 40px" height="293px"/>
