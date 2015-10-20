@@ -1,13 +1,13 @@
 /*
 
-  Dumitru Taraianu
-  (aka Mitel)
+  David Hanacek
+  (aka sdcloudy)
 
-  EMC Core Technologies Division
-  East & West Africa
+  EMC 
+  vSpecialist Team Lead
 
-  dumitru.taraianu@emc.com
-  twitter: @mitelone
+  david.hanacek@emc.com
+  twitter: @SD_Cloudy
 */
 
 
