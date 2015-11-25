@@ -411,7 +411,7 @@ export default class extends React.Component {
             Thank you, enjoy the coffee!
           </Heading>
           <Heading size={1} caps fit lineHeight={1.5} textColor="primary">
-            @mitelone  |  github.com/mitel
+            @SD_Cloudy  |  github.com/sdcloudy
           </Heading>
           <Link href="http://www.emcfederation.com"><Image width="100%" src={images.federation}/></Link>
         </Slide>
