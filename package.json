@@ -1,7 +1,7 @@
 {
-  "name": "EMC-Day-2015",
+  "name": "EMC-ATR-2015",
   "version": "0.0.1",
-  "description": "EMC xChange Day 2015 (Romania) keynote",
+  "description": "EMC ATR 2015 (Austria) DevOps Introduction",
   "main": "index.html",
   "scripts": {
     "start": "webpack-dev-server",
