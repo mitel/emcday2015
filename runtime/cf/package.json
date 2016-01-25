@@ -1,7 +1,7 @@
 {
-  "name": "emc-day-2015",
+  "name": "emc-devops-intro",
   "version": "0.0.1",
-  "author": "mitel",
+  "author": "sdcloudy",
   "dependencies": {
   },
   "engines": {

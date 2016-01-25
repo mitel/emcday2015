@@ -1,13 +1,13 @@
 /*
 
-  Dumitru Taraianu
-  (aka Mitel)
+  David Hanacek
+  (aka sdcloudy)
 
-  EMC Core Technologies Division
-  East & West Africa
+  EMC 
+  vSpecialist Team Lead
 
-  dumitru.taraianu@emc.com
-  twitter: @mitelone
+  david.hanacek@emc.com
+  twitter: @SD_Cloudy
 */
 
 
@@ -49,11 +49,14 @@ export default class extends React.Component {
           <Heading size={1} fit caps textColor="black">
             A presentation about this presentation
           </Heading>
-          <Link href="https://github.com/mitel/emcday2015">
+          <Heading size={1} fit caps textColor="black">
+            What's DevOps About?
+          </Heading>
+          <Link href="https://github.com/sdcloudy/emcsolutionday2015">
             <Text bold caps textColor="tertiary">Download my code from Github</Text>
           </Link>
           <Text textSize="1.5em" margin="20px 0px 0px" bold>Right Arrow or swipe To Begin!</Text>
-          <Text textSize="1.5em" margin="20px 0px 0px" bold>Dumitru Taraianu | EMC Systems Engineer - CTD Emerging Africa | @mitelone</Text>
+          <Text textSize="1.5em" margin="20px 0px 0px" bold>David Hanacek | EMC vSpecialist Team Lead | @SD_Cloudy</Text>
         </Slide>
         <Slide transition={["slide"]} bgColor="black" notes="You can even put notes on your slide. How awesome is that?">
           <Image src={images.kat.replace("/", "")} margin="0px auto 40px" height="293px"/>
@@ -411,7 +414,7 @@ export default class extends React.Component {
             Thank you, enjoy the coffee!
           </Heading>
           <Heading size={1} caps fit lineHeight={1.5} textColor="primary">
-            @mitelone  |  github.com/mitel
+            @SD_Cloudy  |  github.com/sdcloudy
           </Heading>
           <Link href="http://www.emcfederation.com"><Image width="100%" src={images.federation}/></Link>
         </Slide>

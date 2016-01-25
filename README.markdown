@@ -3,13 +3,13 @@ A presentation about cloud-native apps based on Spectacle & ReactJS
 
 Run it local, on CloudFoundry or a Docker container
 
-##Getting Started
+##Getting Started (for all deployment methods)
 
 Clone this repository, open a terminal and run `npm install`
 
-Then, to start up the local server, run `npm start`
+Optional (to check locally) : Then, to start up the local server, run `npm start`
 
-Open a browser (better be Chrome or Safari) and hit `http://localhost:3000`.
+Optional (to cehck locally) : Open a browser (better be Chrome or Safari) and hit `http://localhost:3000`.
 
 ## Build & Deploy with Docker
 
