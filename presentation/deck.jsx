@@ -49,6 +49,9 @@ export default class extends React.Component {
           <Heading size={1} fit caps textColor="black">
             A presentation about this presentation
           </Heading>
+          <Heading size={1} fit caps textColor="black">
+            What's DevOps About?
+          </Heading>
           <Link href="https://github.com/sdcloudy/emcsolutionday2015">
             <Text bold caps textColor="tertiary">Download my code from Github</Text>
           </Link>
