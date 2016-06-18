@@ -52,11 +52,14 @@ export default class extends React.Component {
           <Heading size={1} fit caps textColor="black">
             What's DevOps About?
           </Heading>
-          <Link href="https://github.com/sdcloudy/emcsolutionday2015">
+          <Heading size={1} fit caps textColor="black">
+            And why does it matter?
+          </Heading>
+          <Link href="https://github.com/sdcloudy/emcdevopsintro">
             <Text bold caps textColor="tertiary">Download my code from Github</Text>
           </Link>
           <Text textSize="1.5em" margin="20px 0px 0px" bold>Right Arrow or swipe To Begin!</Text>
-          <Text textSize="1.5em" margin="20px 0px 0px" bold>David Hanacek | EMC vSpecialist Team Lead | @SD_Cloudy</Text>
+          <Text textSize="1.5em" margin="20px 0px 0px" bold>David Hanacek | EMC vSpecialist | @SD_Cloudy</Text>
         </Slide>
         <Slide transition={["slide"]} bgColor="black" notes="You can even put notes on your slide. How awesome is that?">
           <Image src={images.kat.replace("/", "")} margin="0px auto 40px" height="293px"/>
@@ -149,7 +152,7 @@ export default class extends React.Component {
           </Appear>
           <Appear fid="3">
             <Text textSize="3.0em" margin="20px 0px 0px" textColor="primary">
-              Hint: follow the vmware integrated openstack project
+              Hint: follow the VMware integrated openstack project
             </Text>
           </Appear>
         </Slide>
@@ -167,7 +170,7 @@ export default class extends React.Component {
           </Appear>
           <Appear fid="3">
             <Heading size={1} caps fit margin="20px 0px 0px" textColor="primary">
-              ..plus any public cloud running on VMWare or OpenStack
+              ..plus any public cloud running on VMware or OpenStack
             </Heading>
           </Appear>
         </Slide>
