@@ -4,7 +4,7 @@
   (aka sdcloudy)
 
   EMC 
-  vSpecialist Team Lead
+  vSpecialist
 
   david.hanacek@emc.com
   twitter: @SD_Cloudy
