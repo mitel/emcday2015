@@ -3,10 +3,10 @@
   David Hanacek
   (aka sdcloudy)
 
-  EMC 
+  Dell EMC 
   vSpecialist
 
-  david.hanacek@emc.com
+  david.hanacek@dell.com
   twitter: @SD_Cloudy
 */
 
@@ -26,12 +26,13 @@ const images = {
   city: require("./city2.jpg"),
   kat: require("./kat.png"),
   blackemc: require("./emc_bkg1.jpg"),
-  federation: require("./federation-lockup-aug15.png"),
+  delltechnologies: require("./logo-dell-tech-shaded.png"),
+  delltechnologieslogos: require("./logo-strip.png"),
   opensource: require("./opensource5.png"),
   quake: require("./quake2.jpg")
 };
 
-preloader([images.city, images.kat, images.blackemc, images.federation, images.opensource, images.quake]);
+preloader([images.city, images.kat, images.blackemc, images.delltechnologies, images.delltechnologieslogos, images.opensource, images.quake]);
 
 export default class extends React.Component {
   render() {
@@ -59,7 +60,7 @@ export default class extends React.Component {
             <Text bold caps textColor="tertiary">Download my code from Github</Text>
           </Link>
           <Text textSize="1.5em" margin="20px 0px 0px" bold>Right Arrow or swipe To Begin!</Text>
-          <Text textSize="1.5em" margin="20px 0px 0px" bold>David Hanacek | EMC vSpecialist | @SD_Cloudy</Text>
+          <Text textSize="1.5em" margin="20px 0px 0px" bold>David Hanacek | Dell EMC vSpecialist | @SD_Cloudy</Text>
         </Slide>
         <Slide transition={["slide"]} bgColor="black" notes="You can even put notes on your slide. How awesome is that?">
           <Image src={images.kat.replace("/", "")} margin="0px auto 40px" height="293px"/>
@@ -224,7 +225,7 @@ export default class extends React.Component {
           </Appear>
           <Appear fid="3">
             <Heading size={1} caps fit margin="20px 0px 0px" textColor="primary">
-              ..or choose an EMC converged infra - stay tuned
+              ..or choose a Dell EMC converged infra - stay tuned
             </Heading>
           </Appear>
         </Slide>
@@ -419,7 +420,7 @@ export default class extends React.Component {
           <Heading size={1} caps fit lineHeight={1.5} textColor="primary">
             @SD_Cloudy  |  github.com/sdcloudy
           </Heading>
-          <Link href="http://www.emcfederation.com"><Image width="100%" src={images.federation}/></Link>
+          <Link href="http://www.delltechnologies.com"><Image width="100%" src={images.delltechnologies}/><Image width="100%" src={images.delltechnologieslogos}/></Link>
         </Slide>
       </Deck>
     );

@@ -1,11 +1,11 @@
 {
-  "name": "emc-devops-intro",
+  "name": "dellemc-devops-intro",
   "version": "0.0.1",
   "author": "sdcloudy",
   "dependencies": {
   },
   "engines": {
-    "node": "5.10.1",
-    "npm": "2.7.4"
+    "node": "6.4.0",
+    "npm": "3.10.3"
   }
 }
