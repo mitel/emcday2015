@@ -1,4 +1,4 @@
-#EMC xChange Day 2015
+#Originally created for EMC xChange Day 2015
 A presentation about cloud-native apps based on Spectacle & ReactJS
 
 Run it local, on CloudFoundry or a Docker container
