@@ -227,6 +227,7 @@ export default class extends React.Component {
             <Heading size={1} caps fit margin="20px 0px 0px" textColor="primary">
               ..or choose a Dell EMC converged infra
             </Heading>
+          </Appear>
            <Appear fid="4">
             <Heading size={1} caps fit margin="20px 0px 0px" textColor="primary">
             Integrated as turnkey solution as <Link textColor="primary" href="https://www.emc.com/en-us/solutions/cloud/native-hybrid-cloud.htm">Native Hybrid Cloud</Link>
