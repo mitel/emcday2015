@@ -135,7 +135,7 @@ export default class extends React.Component {
           </Appear>
           <Appear fid="3">
             <Heading size={1} caps fit margin="20px 0px 0px" textColor="red">
-              But you go back 5 years..
+              But you go back several years..
             </Heading>
           </Appear>
         </Slide>
@@ -153,7 +153,7 @@ export default class extends React.Component {
           </Appear>
           <Appear fid="3">
             <Text textSize="3.0em" margin="20px 0px 0px" textColor="primary">
-              Hint: follow the VMware integrated openstack project
+              Hint: follow the vSphere Integrated Openstack project
             </Text>
           </Appear>
         </Slide>
@@ -225,7 +225,11 @@ export default class extends React.Component {
           </Appear>
           <Appear fid="3">
             <Heading size={1} caps fit margin="20px 0px 0px" textColor="primary">
-              ..or choose a Dell EMC converged infra - stay tuned
+              ..or choose a Dell EMC converged infra
+            </Heading>
+           <Appear fid="4">
+            <Heading size={1} caps fit margin="20px 0px 0px" textColor="primary">
+            Integrated as turnkey solution as <Link textColor="primary" href="https://www.emc.com/en-us/solutions/cloud/native-hybrid-cloud.htm">Native Hybrid Cloud</Link>
             </Heading>
           </Appear>
         </Slide>
@@ -384,7 +388,7 @@ export default class extends React.Component {
           </Appear>
           <Appear fid="3">
             <Heading size={1} caps fit margin="20px 0px 0px" textColor="primary">
-              Follow this: @thenewstack @thehackernews @emccode @pivotal
+              Follow this: @thenewstack @thehackernews @codeDellEMC @pivotal
             </Heading>
           </Appear>
         </Slide>
