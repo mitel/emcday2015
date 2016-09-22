@@ -3,9 +3,5 @@
   "version": "0.0.1",
   "author": "sdcloudy",
   "dependencies": {
-  },
-  "engines": {
-    "node": "6.4.0",
-    "npm": "3.10.3"
   }
 }
