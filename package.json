@@ -1,6 +1,6 @@
 {
   "name": "Virtustream-CNA-Demo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Virtustream DevOps Introduction",
   "main": "index.html",
   "scripts": {

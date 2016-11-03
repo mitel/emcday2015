@@ -3,10 +3,10 @@
   David Hanacek
   (aka sdcloudy)
 
-  Dell EMC 
-  vSpecialist
+  Virtustream 
+  Advisory Solutions Architect
 
-  david.hanacek@dell.com
+  david.hanacek@virtustream.com
   twitter: @SD_Cloudy
 */
 
@@ -60,7 +60,7 @@ export default class extends React.Component {
             <Text bold caps textColor="tertiary">Download my code from Github</Text>
           </Link>
           <Text textSize="1.5em" margin="20px 0px 0px" bold>Right Arrow or swipe To Begin!</Text>
-          <Text textSize="1.5em" margin="20px 0px 0px" bold>David Hanacek | Dell EMC vSpecialist | @SD_Cloudy</Text>
+          <Text textSize="1.5em" margin="20px 0px 0px" bold>David Hanacek | Virtustream Advisory Solutions Architect | @SD_Cloudy</Text>
         </Slide>
         <Slide transition={["slide"]} bgColor="black" notes="You can even put notes on your slide. How awesome is that?">
           <Image src={images.kat.replace("/", "")} margin="0px auto 40px" height="293px"/>
