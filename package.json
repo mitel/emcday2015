@@ -1,7 +1,7 @@
 {
-  "name": "EMC-ATR-2015",
+  "name": "Virtustream-CNA-Demo",
   "version": "0.0.1",
-  "description": "EMC ATR 2015 (Austria) DevOps Introduction",
+  "description": "Virtustream DevOps Introduction",
   "main": "index.html",
   "scripts": {
     "start": "webpack-dev-server",
