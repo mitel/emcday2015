@@ -29,7 +29,7 @@ const images = {
   delltechnologies: require("./logo-dell-tech-shaded.png"),
   delltechnologieslogos: require("./logo-strip.png"),
   opensource: require("./opensource5.png"),
-  virtustream: require("./Virtustream_logo-web.png"),
+  virtustream: require("./Virtustream_logo_red.png"),
   quake: require("./quake2.jpg")
 };
 
