@@ -427,6 +427,9 @@ export default class extends React.Component {
             @SD_Cloudy  |  github.com/sdcloudy
           </Heading>
 		  <Link href="http://www.virtustream.com"><Image width="100%" src={images.virtustream}/></Link>
+		  <Heading size={1} caps fit margin="20px 0px 0px" textColor="tertiary">
+              DevOps Cafe, All Things Pivotal, The Cloudcast, The Hot Aisle
+          </Heading>
           <Link href="http://www.delltechnologies.com"><Image width="75%" src={images.delltechnologies}/></Link>
 		  <Link href="http://www.delltechnologies.com"><Image width="100%" src={images.delltechnologieslogos}/></Link>
 		</Slide>
