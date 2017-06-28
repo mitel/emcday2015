@@ -29,6 +29,7 @@ const images = {
   delltechnologies: require("./logo-dell-tech-shaded.png"),
   delltechnologieslogos: require("./logo-strip.png"),
   opensource: require("./opensource5.png"),
+  virtustream: require("./Virtustream_logo-web.png"),
   quake: require("./quake2.jpg")
 };
 
@@ -425,6 +426,7 @@ export default class extends React.Component {
           <Heading size={1} caps fit lineHeight={1.5} textColor="primary">
             @SD_Cloudy  |  github.com/sdcloudy
           </Heading>
+		  <Link href="http://www.virtustream.com"><Image width="100%" src={images.virtustream}/></Link>
           <Link href="http://www.delltechnologies.com"><Image width="100%" src={images.delltechnologies}/><Image width="100%" src={images.delltechnologieslogos}/></Link>
         </Slide>
       </Deck>
