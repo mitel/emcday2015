@@ -54,9 +54,11 @@ export default class extends React.Component {
           <Heading size={1} fit caps textColor="black">
             What's DevOps About?
           </Heading>
-          <Heading size={1} fit caps textColor="black">
-            And why does it matter to Virtustream?
-          </Heading>
+          <Link href="https://www.virtustream.com/solutions/pivotal-cloud-foundry-service">
+	    <Heading size={1} fit caps textColor="black">
+            	And how does Virtustrem PCF Service makes a difference?
+            </Heading>
+	  </Link>
           <Link href="https://github.com/sdcloudy/emcdevopsintro/tree/virtustreampcfintro">
             <Text bold caps textColor="tertiary">Download my code from Github</Text>
           </Link>
